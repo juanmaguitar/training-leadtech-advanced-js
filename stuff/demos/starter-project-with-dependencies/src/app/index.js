@@ -28,3 +28,4 @@ const buz = obj?.a?.b?.c // 42
 console.log(baz)
 console.log({...obj})
 console.log(buz)
+console.log('sdfs sdfsf d')
