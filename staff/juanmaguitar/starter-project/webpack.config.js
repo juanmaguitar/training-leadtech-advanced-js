@@ -1,26 +1,23 @@
-const path = require("path");
-const webpack = require("webpack"); 
+const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry : "./src/app/index.js", // eslint-disable-line quotes
+  entry: './src/app/index.js',
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js"
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js'
   },
   module: {
     rules: [
       {
         test: /\.js$/,
-        use: "babel-loader",
+        use: 'babel-loader',
         exclude: /node_modules/
       }
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' })
-  ],
+  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
   devServer: {
-    contentBase: "./src/public"
+    contentBase: './src/public'
   }
-};
+}
