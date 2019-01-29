@@ -1,5 +1,5 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+import path from 'path'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
 
 module.exports = {
   entry: './src/app/index.js',
@@ -16,9 +16,7 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' })
-  ],
+  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
   devServer: {
     contentBase: './src/public'
   }
