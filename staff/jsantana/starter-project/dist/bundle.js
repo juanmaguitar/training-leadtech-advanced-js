@@ -85,5 +85,9 @@ var alsoMe = _objectSpread({}, me, {
 
 console.log(alsoMe);
 
+if (alsoMe) {
+  console.log('hola');
+}
+
 /***/ })
 /******/ ]);
