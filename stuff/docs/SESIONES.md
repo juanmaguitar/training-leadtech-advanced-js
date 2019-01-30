@@ -25,4 +25,6 @@ Tres "frentes" para preparar un entorno moderno
 #### Repaso Javascript
 
 👉  &nbsp;  <https://apuntes-javascript-principiante.netlify.com>
+👉  &nbsp;  <https://github.com/juanmaguitar/javascript-notes>
+
 
