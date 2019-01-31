@@ -1,7 +1,6 @@
 const closurePassword = function (pass) {
-  let password = pass
   return function () {
-    return password
+    return pass
   }
 }
 
