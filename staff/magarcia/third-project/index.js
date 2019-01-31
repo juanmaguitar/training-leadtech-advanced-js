@@ -40,8 +40,7 @@ function counter(acc, item){
 }
 
 function wordCounter(text){
-  text = text.replace("\n", ' ')
-  text = text.split(" ")
+  text = text.replace("\n", ' ').split(" ")
   return text.reduce(counter, {})
 }
 
