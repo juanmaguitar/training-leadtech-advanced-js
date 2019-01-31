@@ -8,3 +8,9 @@ const alsoMe = { ...me, age: 42 }
 console.log(alsoMe)
 console.log(me == alsoMe) // eslint-disable-line eqeqeq
 console.log(2 == "3")
+
+
+var a = {
+    hola: 'hola'
+}
+console.log(a['hola'])
