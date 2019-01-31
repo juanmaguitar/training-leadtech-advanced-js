@@ -3,6 +3,8 @@ const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
+console.log("This is PRODUCTION!!");
+
 module.exports = {
   entry: "./src/app/index.js",
   output: {
@@ -16,10 +18,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: [
-          "eslint-loader",
-          "babel-loader"
-        ],
+        use: "babel-loader",
         exclude: /node_modules/
       }
     ]
