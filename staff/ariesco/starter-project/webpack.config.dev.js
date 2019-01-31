@@ -3,6 +3,8 @@ const path = require("path"); //modulo de node nativo
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+console.log('entorno dev')
+
 module.exports = {
   entry: "./src/app/index.js",
   output: {
