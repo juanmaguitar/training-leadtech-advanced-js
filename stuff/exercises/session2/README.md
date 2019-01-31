@@ -1,7 +1,7 @@
 ## Exercises session2 
 
-### `password`
-Create a function `password` that returns the number of times it has been modified
+### `howManyExecutions`
+Create a function `howManyExecutions` that returns the number of times it has been modified
 
 ### `password`
 Create a function `password` that sets a password and returns a functions that returns it. Once is set we cannot modify this password
