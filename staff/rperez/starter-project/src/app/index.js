@@ -1,10 +1,12 @@
-const name = 'raul'
-const city = 'bcn'
+class List {
+  constructor (...items) {
+    this.items = items
+  }
 
-const me = { name, city }
+  add (number) {
+    this.items[this.items.length] = number
+  }
+}
 
-const age = 42
-
-const alsoMe = { ...me, age }
-console.log(me)
-console.log(alsoMe)
+const list = new List(2, 3, 4)
+list.add(2)
