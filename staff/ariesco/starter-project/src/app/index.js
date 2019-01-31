@@ -1,6 +1,7 @@
 const List = require('./List.js')
 const closureCalls = require('./closureCalls.js').closureCalls
 const closurePassword = require('./closurePassword.js').closurePassword
+const superGreeter = require('./superGreeter.js').superGreeter
 
 const me = { a: 1, b: 2 }
 const alsoMe = { ...me, c: 3 }
@@ -18,3 +19,6 @@ console.log(calls())
 console.log('Closure Password')
 const pass = closurePassword('holaquetal')
 console.log(pass())
+
+console.log('Closure Frase')
+console.log(superGreeter('Hi')('the jungle!')('we are playing games..')('Alfonso'))
