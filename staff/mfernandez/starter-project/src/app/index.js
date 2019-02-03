@@ -1,6 +1,6 @@
 console.log('hey!')
 const name = 'miguel'
-const city = 'barcelona'
+const city = "barcelona"
 const me = { name, city }
 console.log(me)
 const age = 42

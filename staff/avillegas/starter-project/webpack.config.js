@@ -1,9 +1,8 @@
 const path = require('path')
-const webpack = require('webpack') //eslint-disable-line
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './src/app/index.js',
+  entry: "./src/app/index.js", // eslint-disable-line quotes
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
@@ -12,7 +11,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: ['babel-loader', 'eslint-loader'],
+        use: 'babel-loader',
         exclude: /node_modules/
       }
     ]
