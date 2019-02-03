@@ -22,3 +22,9 @@ helloTokyoGreeter('friend')
 helloTokyoGreeter('friend')('Yuki')
 //'Hello, Yuki! Welcome to Tokyo, friend.'
 ```
+
+### Frequency of words
+Get an object with the frequency of the words in the text `lorem-ipsum-pulp-fiction.txt`
+
+
+lorem-ipsum-pulp-fiction.txt

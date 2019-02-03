@@ -1,0 +1,23 @@
+{
+  "name": "training-leadtech-advanced-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "npm run clean:modules && npm run clean:package-lock && npm run clean:yarn-lock",
+    "clean:modules": "find . -name 'node_modules' -exec rm -rf '{}' +",
+    "clean:package-lock": "find . -name 'package-lock.json' -exec rm -rf '{}' +",
+    "clean:yarn-lock": "find . -name 'yarn-lock.json' -exec rm -rf '{}' +"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/issues"
+  },
+  "homepage": "https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js#readme"
+}
