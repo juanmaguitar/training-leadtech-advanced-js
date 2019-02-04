@@ -68,3 +68,4 @@ Tres "frentes" para preparar un entorno moderno
     - [Drink About](https://github.com/juanmaguitar/exercises-katas-js/tree/master/DrinkAbout)
     - [Grade book](https://github.com/juanmaguitar/exercises-katas-js/tree/master/GradeBook)
     - [FizzBuzz](https://github.com/juanmaguitar/exercises-katas-js/tree/master/FizzBuzz)
+    - [PasswordValidation](https://github.com/juanmaguitar/exercises-katas-js/tree/master/PasswordValidation)
