@@ -63,3 +63,8 @@ Tres "frentes" para preparar un entorno moderno
 ## Sesión 4 - Lunes 4 Feb
 
 - [TDD y Unit Testings](https://apuntes-javascript-avanzado.netlify.com/unit_testings/)
+
+- Katas
+    - [Drink About](https://github.com/juanmaguitar/exercises-katas-js/tree/master/DrinkAbout)
+    - [Grade book](https://github.com/juanmaguitar/exercises-katas-js/tree/master/GradeBook)
+    - [FizzBuzz](https://github.com/juanmaguitar/exercises-katas-js/tree/master/FizzBuzz)
