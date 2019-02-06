@@ -1,3 +1,7 @@
+import './helpers'
+
+console.log('-'.repeat(20))
+
 const name = 'juanma'
 const city = 'barcelona'
 const me = { name, city }
