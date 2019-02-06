@@ -69,3 +69,7 @@ Tres "frentes" para preparar un entorno moderno
     - [Grade book](https://github.com/juanmaguitar/exercises-katas-js/tree/master/GradeBook)
     - [FizzBuzz](https://github.com/juanmaguitar/exercises-katas-js/tree/master/FizzBuzz)
     - [PasswordValidation](https://github.com/juanmaguitar/exercises-katas-js/tree/master/PasswordValidation)
+
+## Sesión 5 - Miércoles 6 Feb
+
+- [ES2015/ES6](https://apuntes-javascript-avanzado.netlify.com/es6/)
