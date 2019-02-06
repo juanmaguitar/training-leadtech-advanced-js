@@ -1,26 +1,27 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
+console.log("We're in PRODUCTION mode")
+
 module.exports = {
-  entry: './src/app/index.js', // Start point of project
+  entry: './src/app/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js' // Genera el bundle final en dist
+    filename: 'bundle.js'
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         use: [
-          'babel-loader'
+          'babel-loader',
+          'eslint-loader'
         ],
         exclude: /node_modules/
       }
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' }) // Servidor que va actualizando al vuelo el desarrollo que vamos realizando
-  ],
+  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
   devServer: {
     contentBase: './src/public'
   }
