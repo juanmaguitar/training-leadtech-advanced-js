@@ -1,4 +1,12 @@
-import { getTodos } from './services'
+import $ from 'jquery'
+import { getHtmlOptionsUsers, getHtmlListItemsByUser } from './helpers'
+  ;(async () => {
+  const htmlOptionsUsers = await getHtmlOptionsUsers()
+  $('#users-list').html(htmlOptionsUsers)
+})()
 
-// console.log(getTodos)
-getTodos().then(console.log)
+$('#users-list').on('change', async e => {
+  const { value: idUser } = e.target
+  const htmlListTodos = await getHtmlListItemsByUser(idUser)
+  $('#list-todos').html(htmlListTodos)
+})

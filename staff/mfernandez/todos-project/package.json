@@ -4,10 +4,10 @@
   "description": "## Packages Webpack",
   "main": "index.js",
   "scripts": {
-    "linter": "eslint ./app/index.js",
-    "phoenix": "rm -rf node_modules && rm -rf package-lock.json && npm install",
     "build": "rimraf dist && webpack --progress",
-    "server": "webpack-dev-server --inline --progress"
+    "server": "webpack-dev-server --inline --progress",
+    "phoenix": "rm -fr node_modules && rm -fr package-lock.json && npm install",
+    "linter": "eslint ./app/index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,19 +20,15 @@
     "babel-loader": "^8.0.5",
     "babel-polyfill": "^6.26.0",
     "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.1",
     "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "html-webpack-plugin": "^2.30.1",
-    "jquery": "^3.3.1",
     "prettier-eslint": "^8.8.2",
     "rimraf": "^2.6.2",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
-  },
-  "devDependencies": {
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "eslint-loader": "^2.1.1"
   }
 }
