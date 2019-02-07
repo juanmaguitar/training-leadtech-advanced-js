@@ -1,15 +1,7 @@
-import axios from 'axios'
+// import { getTodos, getUsers, getTodosByUser, getUserById } from './services/appServices'
+import { getTodosByUser } from './services/appServices'
 
-const todosUrl = 'https://jsonplaceholder.typicode.com/todos'
-const usersUrl = 'https://jsonplaceholder.typicode.com/users'
-
-const getDataFromResponse = ({ data }) => data
-
-export const getTodos = () => axios.get(todosUrl).then(getDataFromResponse)
-
-// export const getTodos = async () => {
-//   const { data } = await axios.get(url)
-//   return data
-// }
-
-export const getUsers = () => axios.get(usersUrl).then(getDataFromResponse)
+// getTodos().then(console.log)
+// getUsers().then(console.log)
+getTodosByUser(1).then(console.log)
+// getUserById(2).then(console.log)
