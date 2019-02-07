@@ -12,9 +12,15 @@ export const getTodosOtherForm = async () => {
   return data
 }
 
+export const getUserById = async userId => {
+  const usersList = await getUsers()
+  const isTodoFromUser = ({ id }) => userId === id
+  return usersList.filter(isTodoFromUser)
+}
+
 export const getTodosByUser = async id => {
   const todosList = await getTodos()
   const isTodoFromUser = ({ userId }) => userId === id
   const userTodos = todosList.filter(isTodoFromUser)
-  return userTodos.slice(0, 10)
+  return { todos: userTodos.slice(0, 10), user: await getUserById(id) }
 }
