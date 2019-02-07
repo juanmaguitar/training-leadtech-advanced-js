@@ -1,4 +1,9 @@
-import { getTodos } from './services'
+import { getTodosByUser } from './services'
 
 // console.log(getTodos)
-getTodos().then(console.log)
+// getTodos().then(console.log)
+// getUsers().then(console.log)
+
+getTodosByUser(1).then(console.log)
+getTodosByUser(2).then(console.log)
+getTodosByUser(3).then(console.log)

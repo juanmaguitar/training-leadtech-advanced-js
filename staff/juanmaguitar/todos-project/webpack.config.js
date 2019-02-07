@@ -5,16 +5,13 @@ module.exports = {
   entry: './src/app/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle-[chunkhash].js'
   },
   module: {
     rules: [
       {
         test: /\.js$/,
-        use: [
-          'babel-loader',
-          'eslint-loader'
-        ],
+        use: ['babel-loader', 'eslint-loader'],
         exclude: /node_modules/
       }
     ]
