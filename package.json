@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/issues"
   },
-  "homepage": "https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js#readme"
+  "homepage": "https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }

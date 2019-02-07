@@ -15,3 +15,5 @@ export const getTodosByUser = async id => {
   const userTodos = todosList.filter(isTodoFromUser)
   return userTodos.slice(0, 10)
 }
+
+export const getUserById = id => {}
