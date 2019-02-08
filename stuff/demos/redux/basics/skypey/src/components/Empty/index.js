@@ -1,13 +1,13 @@
-import React from "react"
-import "./index.css"
+import React from 'react'
+import './index.css'
 
 const Empty = ({ user }) => {
-  const { name, profile_pic, status } = user;
-  const first_name = name.split(" ")[0];
+  const { name, profile_pic, status } = user
+  const firstName = name.split(' ')[0]
 
   return (
     <div className="Empty">
-      <h1 className="Empty__name">Welcome, {first_name} </h1>
+      <h1 className="Empty__name">Welcome, {firstName} </h1>
       <img src={profile_pic} alt={name} className="Empty__img" />
       <p className="Empty__status">
         <b>Status:</b> {status}
