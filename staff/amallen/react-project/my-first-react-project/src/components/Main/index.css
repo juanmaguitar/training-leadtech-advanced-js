@@ -1,0 +1,5 @@
+.Main {
+    grid-area: list;
+    background-color: grey;
+    color: white;
+  }

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.App {
+    height: 100vh;
+    background-color: whitesmoke;
+    display: grid;
+  
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+  
+    grid-template-areas:
+      "head head head head"
+      "side list list list "
+      "side list list list"
+      "footer footer footer footer";
+  }
