@@ -7,8 +7,8 @@ const Header = ({ title, menu }) => (
     <ul className="Header-menu">
       {
         // sdfsdfsdfdsfds
-        menu.map(item => (
-          <li className="Header-menu-item">{item}</li>
+        menu.map((item, index) => (
+          <li key={index} className="Header-menu-item">{item}</li>
         ))
       }
     </ul>
