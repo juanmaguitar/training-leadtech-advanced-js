@@ -11,10 +11,21 @@ const titleApp = "My Super Cool Header 😎"
 const menuItems = ['Home', 'About', 'Contact']
 
 class App extends Component {
+  state = {
+    title: titleApp
+  }
+
+  changeTitle = () => {
+    this.setState({
+      title: 'New Title'
+    })
+  }
+
   render() {
     return (
       <div className="App">
-        <Header title={titleApp} menu={menuItems} />
+        <Header title={this.state.title} menu={menuItems} />
+        <button onClick={this.changeTitle}>change Title</button>
         <Sidebar />
         <Main />
         <Footer />
