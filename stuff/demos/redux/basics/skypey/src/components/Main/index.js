@@ -1,15 +1,17 @@
-import React from "react"
-import Empty from "../Empty"
-import ChatWindow from "../ChatWindow"
+import React from 'react'
+import Empty from '../Empty'
+import ChatWindow from '../../containers/ChatWindow'
 
-import "./index.css"
+import './index.css'
 
 const Main = ({ user, activeUserId }) => (
-  <main className="Main">{
-    activeUserId 
-      ? <ChatWindow activeUserId={activeUserId} />
-      : <Empty user={user} activeUserId={activeUserId} />
-  }</main>
+  <main className="Main">
+    {activeUserId ? (
+      <ChatWindow activeUserId={activeUserId} />
+    ) : (
+      <Empty user={user} activeUserId={activeUserId} />
+    )}
+  </main>
 )
 
 export default Main
