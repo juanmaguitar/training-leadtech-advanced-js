@@ -7,11 +7,14 @@ import Footer from '../Footer/'
 
 import './index.css'
 
+const titleApp = "My Super Cool Header 😎"
+const menuItems = ['Home', 'About', 'Contact']
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header title={titleApp} menu={menuItems} />
         <Sidebar />
         <Main />
         <Footer />

@@ -3,3 +3,12 @@
   background-color: red;
   color: white;
 }
+
+.Header-menu {
+  display: flex;
+}
+
+.Header-menu-item {
+  list-style: none;
+  margin-left: 10px;
+}
