@@ -31,9 +31,16 @@ export const getTodosByUser = async id => {
   return userTodos
 }
 
-export const getUserById = async id => {
+// export const getUserById = async id => {
+//   const userById = await getUsers()
+//   const userIdById = ({ userId }) => userId === id
+//   const userFiltred = userById.filter(userIdById)
+//   return userFiltred
+// }
+
+export const getUserById = async userId => {
   const userById = await getUsers()
-  const userIdById = ({ userId }) => userId === id
+  const userIdById = ({ id }) => id === userId
   const userFiltred = userById.filter(userIdById)
   return userFiltred
 }
