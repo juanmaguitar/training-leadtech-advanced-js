@@ -1,0 +1,14 @@
+.Header {
+  grid-area: head;
+  background-color: red;
+  color: white;
+}
+
+.Header-menu{
+    display: flex;
+}
+
+.Header-menu-list{
+    list-style: none;
+    margin-left: 10px;
+}
