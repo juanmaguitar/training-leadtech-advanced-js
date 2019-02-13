@@ -1,0 +1,15 @@
+.Header {
+  grid-area: head;
+  background-color: red;
+  color: white;
+  &-menu {
+    display: flex;
+    &-item {
+      list-style: none;
+      margin-left: 10px;
+    }
+  }
+}
+
+
+
