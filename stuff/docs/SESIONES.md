@@ -89,3 +89,10 @@ Tres "frentes" para preparar un entorno moderno
     - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
     - [Handling Events](https://reactjs.org/docs/handling-events.html)
     - [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
+
+## Sesión 8 - Miércoles 13 Feb
+
+- [react-router](https://reacttraining.com/react-router)
+    - [basic](https://reacttraining.com/react-router/web/example/basic)
+    - [url params](https://reacttraining.com/react-router/web/example/url-params)
+    - [sidebar](https://reacttraining.com/react-router/web/example/sidebar)

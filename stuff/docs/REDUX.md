@@ -27,6 +27,10 @@
 - 👉 [Here’s how to optimize the state shape of your React app with Redux](https://medium.freecodecamp.org/optimising-the-state-shape-of-your-react-app-with-redux-3a280e6ef436)
 - [Redux Patterns: Add/Edit/Remove Objects in an Array](https://hackernoon.com/redux-patterns-add-edit-remove-objects-in-an-array-6ee70cab2456)
 
+## `connect` redux & react
+
+- [React-redux "connect" explained](https://www.sohamkamani.com/blog/2017/03/31/react-redux-connect-explained/)
+
 ## Middlewares
 
 normal
@@ -34,3 +38,9 @@ normal
 
 with middlewares
 ![](./img/redux-flow-with-middleware.png)
+
+## Async Calls 
+
+- [A Dummy’s Guide to Redux and Thunk in React](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)
+  - [Codepen version](https://codepen.io/stowball/post/a-dummy-s-guide-to-redux-and-thunk-in-react)
+  - [Repo](https://github.com/stowball/dummys-guide-to-redux-and-thunk-react)
