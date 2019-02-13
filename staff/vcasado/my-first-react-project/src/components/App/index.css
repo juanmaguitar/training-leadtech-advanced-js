@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+
+  grid-template-columns: 2fr 2fr 1fr 2fr;
+  grid-template-rows: 100px 200px 200px 100px;
+
+  grid-template-areas:
+    "head head head head"
+    "sidebar main main main"
+    "sidebar main main main"
+    "footer footer footer footer";
+}
