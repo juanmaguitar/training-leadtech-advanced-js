@@ -73,3 +73,19 @@ Tres "frentes" para preparar un entorno moderno
 ## Sesión 5 - Miércoles 6 Feb
 
 - [ES2015/ES6](https://apuntes-javascript-avanzado.netlify.com/es6/)
+
+## Sesión 6 - Jueves 7 Feb
+
+👉  &nbsp; [Demo](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/todos-project)
+
+## Sesión 7 - Lunes 11 Feb
+
+- [React](https://reactjs.org/) 
+    - [`create-react-app`](https://github.com/facebook/create-react-app)
+    - [JSX](https://reactjs.org/docs/introducing-jsx.html)
+    - [Rendering componentes](https://reactjs.org/docs/rendering-elements.html)
+    - [Components and Props](https://reactjs.org/docs/components-and-props.html)
+        - [Function and Class Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
+    - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+    - [Handling Events](https://reactjs.org/docs/handling-events.html)
+    - [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)

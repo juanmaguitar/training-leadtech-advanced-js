@@ -5,6 +5,8 @@ import Sidebar from '../Sidebar/'
 import Main from '../Main/'
 import Footer from '../Footer/'
 
+import { getUsers } from '../../services/'
+
 import './index.css'
 
 const titleApp = "My Super Cool Header 😎"
@@ -12,7 +14,8 @@ const menuItems = ['Home', 'About', 'Contact']
 
 class App extends Component {
   state = {
-    title: titleApp
+    title: titleApp,
+    users: []
   }
 
   changeTitle = () => {
@@ -21,13 +24,21 @@ class App extends Component {
     })
   }
 
+  async componentDidMount() {
+    const users = await getUsers()
+    setTimeout(() => {
+      this.setState({ users }) 
+    }, 2000)
+    
+  }
+
   render() {
     return (
       <div className="App">
-        <Header title={this.state.title} menu={menuItems} />
         <button onClick={this.changeTitle}>change Title</button>
+        <Header title={this.state.title} menu={menuItems} />
         <Sidebar />
-        <Main />
+        <Main users={this.state.users}/>
         <Footer />
       </div>
     )

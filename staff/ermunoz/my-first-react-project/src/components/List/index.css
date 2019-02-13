@@ -1,0 +1,5 @@
+.List {
+  grid-area: main;
+  background-color: blue;
+  color: white;
+}
