@@ -8,7 +8,7 @@ const _Navbar = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link><Link to="/users">Users</Link></Nav.Link>
+        <Link to="/users">Users</Link>
         {
           /*
           <Nav.Link href="#link">Link</Nav.Link>

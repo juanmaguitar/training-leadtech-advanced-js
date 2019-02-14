@@ -7,6 +7,8 @@ import Navbar from '../Navbar/'
 import Home from '../Home/'
 import Users from '../Users/'
 
+import {contacts} from '../../helpers/static-data'
+console.log(contacts)
 class App extends Component {
   render() {
     return (
