@@ -6,10 +6,10 @@ import './index.scss'
 const BASE_CLASS = 'Card'
 const CLASS_SELECTED = `${BASE_CLASS}--selected`
 
-const _Card = ({ email, name, profile_pic, status, user_id, addSelected, isSelected }) => {
+const _Card = ({ email, name, profile_pic, status, user_id, toggleSelected, isSelected }) => {
   
   const handleClick = ev => {
-    addSelected(user_id)
+    toggleSelected(user_id)
   }
 
   return (

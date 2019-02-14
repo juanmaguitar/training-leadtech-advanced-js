@@ -15,10 +15,20 @@ class App extends Component {
     selected: []
   }
 
-  addSelected = id => {
-    this.setState({
-      selected: [...this.state.selected, id]
-    }) 
+  toggleSelected = idSelection => {
+
+    const {selected} = this.state
+
+    if (selected.includes(idSelection)) {
+      this.setState({
+        selected: selected.filter(id => id !== idSelection)
+      }) 
+    } else {
+      this.setState({
+        selected: [...selected, idSelection]
+      }) 
+    }
+    
   }
   
   render() {
@@ -35,7 +45,7 @@ class App extends Component {
                 {...props} 
                 users={contacts} 
                 selected={selected}
-                addSelected={this.addSelected}
+                toggleSelected={this.toggleSelected}
               />
             )
           }} />

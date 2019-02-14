@@ -6,7 +6,7 @@ import './index.scss'
 const BASE_CLASS = 'Users'
 const CLASS_LIST_CARDS = `${BASE_CLASS}-listCards`
 
-const Users = ({users, addSelected, selected}) => {
+const Users = ({users, toggleSelected, selected}) => {
   const usersList = Object.values(users)
   return (
     <div className={BASE_CLASS}>
@@ -18,7 +18,7 @@ const Users = ({users, addSelected, selected}) => {
               <Card 
                 {...user}
                 key={user.user_id} 
-                addSelected={addSelected}
+                toggleSelected={toggleSelected}
                 isSelected={ selected.includes(user.user_id) }
               />
             ))
