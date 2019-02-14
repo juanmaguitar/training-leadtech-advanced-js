@@ -92,7 +92,10 @@ Tres "frentes" para preparar un entorno moderno
 
 ## Sesión 8 - Miércoles 13 Feb
 
+- [Forms in React](https://reactjs.org/docs/forms.html)
 - [react-router](https://reacttraining.com/react-router)
     - [basic](https://reacttraining.com/react-router/web/example/basic)
     - [url params](https://reacttraining.com/react-router/web/example/url-params)
     - [sidebar](https://reacttraining.com/react-router/web/example/sidebar)
+
+## Sesión 9 - Jueves 14 Feb
