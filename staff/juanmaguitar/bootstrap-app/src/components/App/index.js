@@ -9,6 +9,7 @@ import Users from '../Users/'
 
 import {contacts} from '../../helpers/static-data'
 console.log(contacts)
+
 class App extends Component {
   render() {
     return (
@@ -17,7 +18,9 @@ class App extends Component {
           <Navbar />
           <h1>App</h1>
           <Route exact path="/" component={Home} />
-          <Route path="/users" component={Users} />
+          <Route path="/users" render={props => {
+            return <Users {...props} users={contacts}/>
+          }} />
         </Container>
       </Router>  
     );
