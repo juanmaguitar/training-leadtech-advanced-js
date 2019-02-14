@@ -1,0 +1,11 @@
+.Header {
+  background-color:#fff9a9;
+  grid-area: head;
+  &-menu {
+    display: flex;
+    &-item {
+      list-style: none;
+      padding-right: 15px;
+    }
+  }
+}
