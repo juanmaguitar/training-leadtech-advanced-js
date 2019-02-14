@@ -1,0 +1,24 @@
+import React from 'react'
+import Card from '../Card/'
+
+import './index.scss'
+
+const BASE_CLASS = 'Users'
+const CLASS_LIST_CARDS = `${BASE_CLASS}-listCards`
+
+const Users = ({users}) => {
+  const usersList = Object.values(users)
+  return (
+    <div className={BASE_CLASS}>
+      <h2>{usersList.length} users</h2>
+      <div className={CLASS_LIST_CARDS}>
+        {
+          usersList
+            .map(user => <Card key={user.user_id} {...user}/>)
+        }
+      </div>
+    </div>
+  )
+}
+
+export default Users
