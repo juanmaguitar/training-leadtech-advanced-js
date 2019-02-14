@@ -1,20 +1,19 @@
 import React from 'react'
 import {Card, Button } from 'react-bootstrap';
 
-const Card = () => {
+const _Card = ({ email, name, profile_pic, status, user_id }) => {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={profile_pic} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{name}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the bulk of
-          the card's content.
+          {status}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">{email}</Button>
       </Card.Body>
     </Card>
   )
 }
 
-export default Card
+export default _Card
