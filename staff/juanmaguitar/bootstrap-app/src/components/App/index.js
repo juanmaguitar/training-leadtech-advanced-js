@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 import { Container } from 'react-bootstrap';
 
 import Navbar from '../Navbar/'
 import Home from '../Home/'
+import Users from '../Users/'
 
 class App extends Component {
   render() {
     return (
-      <Container>
-        <Navbar />
-        <h1>App</h1>
-        <Home />
-      </Container>
+      <Router>
+        <Container>
+          <Navbar />
+          <h1>App</h1>
+          <Route exact path="/" component={Home} />
+          <Route path="/users" component={Users} />
+        </Container>
+      </Router>  
     );
   }
 }
