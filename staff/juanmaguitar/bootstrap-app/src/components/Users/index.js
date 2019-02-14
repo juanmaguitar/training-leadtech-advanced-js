@@ -6,7 +6,7 @@ import './index.scss'
 const BASE_CLASS = 'Users'
 const CLASS_LIST_CARDS = `${BASE_CLASS}-listCards`
 
-const Users = ({users}) => {
+const Users = ({users, addSelected, selected}) => {
   const usersList = Object.values(users)
   return (
     <div className={BASE_CLASS}>
@@ -14,7 +14,14 @@ const Users = ({users}) => {
       <div className={CLASS_LIST_CARDS}>
         {
           usersList
-            .map(user => <Card key={user.user_id} {...user}/>)
+            .map(user => (
+              <Card 
+                {...user}
+                key={user.user_id} 
+                addSelected={addSelected}
+                isSelected={ selected.includes(user.user_id) }
+              />
+            ))
         }
       </div>
     </div>
