@@ -1,0 +1,13 @@
+.App {
+  background-color: #4ce49f;
+  display: grid;
+
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 200px 200px 200px 200px;
+
+  grid-template-areas:
+    "head head head head"
+    "side main main main"
+    "side main main main"
+    "footer footer footer footer";
+}
