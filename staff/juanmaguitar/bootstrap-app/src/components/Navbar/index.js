@@ -2,7 +2,7 @@ import React from 'react'
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
-const _Navbar = () => (
+const _Navbar = ({selected}) => (
   <Navbar bg="light" expand="lg">
     <Navbar.Brand><Link to="/">React-Bootstrap</Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -23,10 +23,16 @@ const _Navbar = () => (
 
         }
       </Nav>
-      <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-success">Search</Button>
-      </Form>
+      { selected.length } users selected
+      {
+        /*
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-success">Search</Button>
+        </Form>
+        
+        */
+      }
     </Navbar.Collapse>
   </Navbar>
 )

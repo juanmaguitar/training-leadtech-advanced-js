@@ -11,15 +11,33 @@ import {contacts} from '../../helpers/static-data'
 console.log(contacts)
 
 class App extends Component {
+  state = {
+    selected: []
+  }
+
+  addSelected = id => {
+    this.setState({
+      selected: [...this.state.selected, id]
+    }) 
+  }
+  
   render() {
+    const {selected} = this.state
     return (
       <Router>
         <Container>
-          <Navbar />
+          <Navbar selected={selected}/>
           <h1>App</h1>
           <Route exact path="/" component={Home} />
           <Route path="/users" render={props => {
-            return <Users {...props} users={contacts}/>
+            return (
+              <Users 
+                {...props} 
+                users={contacts} 
+                selected={selected}
+                addSelected={this.addSelected}
+              />
+            )
           }} />
         </Container>
       </Router>  
