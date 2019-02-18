@@ -47,3 +47,5 @@ with middlewares
 - [A Dummy’s Guide to Redux and Thunk in React](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)
   - [Codepen version](https://codepen.io/stowball/post/a-dummy-s-guide-to-redux-and-thunk-in-react)
   - [Repo](https://github.com/stowball/dummys-guide-to-redux-and-thunk-react)
+
+👉 Data fetching in Redux apps — a 100% correct approach
