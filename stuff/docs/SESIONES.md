@@ -17,7 +17,7 @@ Tres "frentes" para preparar un entorno moderno
 
 [Prettier](https://prettier.io/)
 
-👉  &nbsp; [Demo](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/starter-project)
+👉  &nbsp; [Demo: Webpack + Babel + ESLint](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/starter-project)
 
 
 ## Sesión 2 - Miércoles 30 Ene
@@ -76,7 +76,7 @@ Tres "frentes" para preparar un entorno moderno
 
 ## Sesión 6 - Jueves 7 Feb
 
-👉  &nbsp; [Demo](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/todos-project)
+👉  &nbsp; [Demo: Service + Modules ES2015 + AJAX + jQuery](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/todos-project)
 
 ## Sesión 7 - Lunes 11 Feb
 
@@ -90,6 +90,9 @@ Tres "frentes" para preparar un entorno moderno
     - [Handling Events](https://reactjs.org/docs/handling-events.html)
     - [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
 
+👉  &nbsp; [Demo: First React Project](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/my-first-react-project)
+
+
 ## Sesión 8 - Miércoles 13 Feb
 
 - [Forms in React](https://reactjs.org/docs/forms.html)
@@ -98,4 +101,23 @@ Tres "frentes" para preparar un entorno moderno
     - [url params](https://reacttraining.com/react-router/web/example/url-params)
     - [sidebar](https://reacttraining.com/react-router/web/example/sidebar)
 
+👉  &nbsp; [Demo: Router + Forms](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/project-forms-router)
+
 ## Sesión 9 - Jueves 14 Feb
+
+👉  &nbsp; [Demo: Bootstrap + Communication between components + General State in App](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/bootstrap-app)
+
+## Sesión 10 - Lunes 18 Feb
+
+-  [Example: Redux RAW](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/blob/master/stuff/examples/sesion10/redux-raw.js)
+
+- [Example: HOC](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/blob/master/stuff/examples/sesion10/hoc.js)
+
+👉  &nbsp; [Demo: Only Redux](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/redux-demo)
+
+👉  &nbsp; [Demo: Redux + React](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/demo-redux-react-basic)
+
+👉  &nbsp; [Boilerplate Movies App](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/boilerplate-movies-app)
+
+
+
