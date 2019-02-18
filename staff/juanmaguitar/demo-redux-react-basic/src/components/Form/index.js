@@ -1,15 +1,17 @@
 import React, { Component } from "react"
-import store from "../../store/"
+import { connect } from "react-redux"
 import { addTodo } from "../../actions/"
 
 class Form extends Component {
   state = {
     value: ""
   }
+
   handleSubmit = e => {
     e.preventDefault()
     const { value } = this.state
-    store.dispatch(addTodo(value))
+    const { addTodo } = this.props
+    addTodo(value)
   }
 
   handleChange = e => {
@@ -29,4 +31,8 @@ class Form extends Component {
   }
 }
 
-export default Form
+export {Form}
+export default connect(
+  null,
+  { addTodo }
+)(Form)

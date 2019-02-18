@@ -1,17 +1,18 @@
 import React from "react"
-import store from "../../store/"
+import { connect } from "react-redux"
 
-import ItemTodo from '../ItemTodo'
+import ItemTodo from "../ItemTodo"
 
-const ListTodos = () => {
-  const {todos} = store.getState()
+const ListTodos = ({ todos}) => {
   return (
     <ul>
-      {
-        todos.map((todo, index) => <ItemTodo key={index} index={index} todo={todo} />)
-      }
+      {todos.map((todo, index) => (
+        <ItemTodo key={index} index={index} todo={todo} />
+      ))}
     </ul>
   )
 }
 
-export default ListTodos
+const mapStateToProps = ({ todos }) => ({ todos })
+
+export default connect(mapStateToProps)(ListTodos)

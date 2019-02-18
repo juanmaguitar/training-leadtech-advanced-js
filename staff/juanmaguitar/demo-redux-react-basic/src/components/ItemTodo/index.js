@@ -1,11 +1,11 @@
 import React from "react"
-import store from "../../store/"
+import { connect } from "react-redux"
 import { toggleTodo } from "../../actions/"
 
-const ItemTodo = ({index, todo: { text, completed}}) => {
+const ItemTodo = ({toggleTodo, index, todo: { text, completed}}) => {
 
   const handleChange = e => {
-    store.dispatch(toggleTodo(index))
+    toggleTodo(index)
   }
 
   return (
@@ -16,4 +16,7 @@ const ItemTodo = ({index, todo: { text, completed}}) => {
   )
 }
 
-export default ItemTodo
+export default connect(
+  null,
+  { toggleTodo }
+)(ItemTodo)
