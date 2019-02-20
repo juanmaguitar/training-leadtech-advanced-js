@@ -119,5 +119,9 @@ Tres "frentes" para preparar un entorno moderno
 
 👉  &nbsp; [Boilerplate Movies App](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/boilerplate-movies-app)
 
+## Sesión 11 - Miercoles 20 Feb
 
+👉  &nbsp; [Demo: Bootstrap App w/ Redux](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/tree/master/staff/juanmaguitar/bootstrap-app-redux)
+
+👉  &nbsp; [Demo: Redux Thunk](https://github.com/trainings-juanmaguitar/training-leadtech-advanced-js/stuff/demos/redux/thunk/dummys-guide-to-redux-and-thunk-react)
 
