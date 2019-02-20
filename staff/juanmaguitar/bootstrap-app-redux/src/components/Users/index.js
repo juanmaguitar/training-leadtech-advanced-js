@@ -7,7 +7,7 @@ import './index.scss'
 const BASE_CLASS = 'Users'
 const CLASS_LIST_CARDS = `${BASE_CLASS}-listCards`
 
-const Users = ({users, toggleSelected, selected}) => {
+const Users = ({users, selected}) => {
   const usersList = Object.values(users)
   return (
     <div className={BASE_CLASS}>
@@ -28,7 +28,7 @@ const Users = ({users, toggleSelected, selected}) => {
   )
 }
 
-const mapStateToProps = ({ contacts: users }) => ({ users })
+const mapStateToProps = ({ contacts: users, selected }) => ({ users, selected })
 
 export default connect(mapStateToProps)(Users)
 

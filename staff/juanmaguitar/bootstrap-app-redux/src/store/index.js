@@ -1,5 +1,6 @@
 /* eslint-disable */
 import { applyMiddleware, createStore } from "redux"
+import { composeWithDevTools } from 'redux-devtools-extension';
 import logger from 'redux-logger'
 
 import reducer from "../reducers/"
@@ -9,6 +10,10 @@ const selected = []
 
 const initialState = { contacts, selected }
 
-const store = createStore(reducer, initialState, applyMiddleware(logger))
+const store = createStore(reducer, initialState, 
+  composeWithDevTools(  
+    applyMiddleware(logger)
+  )
+)
 
 export default store
