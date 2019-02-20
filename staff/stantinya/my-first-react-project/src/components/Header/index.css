@@ -1,0 +1,15 @@
+.Header {
+  grid-area: head;
+  background-color: red;
+  color: white;
+}
+
+.Header-menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Header-menu-item:not(:first-child) {
+  margin-left: 10px;
+}
