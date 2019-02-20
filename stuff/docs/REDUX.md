@@ -49,3 +49,8 @@ with middlewares
   - [Repo](https://github.com/stowball/dummys-guide-to-redux-and-thunk-react)
 
 👉 Data fetching in Redux apps — a 100% correct approach
+
+## Working in large apps w/ Redux
+
+- [Scaling your Redux App with ducks](https://medium.freecodecamp.org/scaling-your-redux-app-with-ducks-6115955638be)
+  - [Building on the duck legacy](https://github.com/alexnm/re-ducks)
